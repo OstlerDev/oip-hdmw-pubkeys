@@ -1,7 +1,13 @@
 # oip-hdmw-pubkeys
 Demo code to take a Mnemonic, derive an xPub, reload the xPub into a fresh `oip-hdmw` and generate new public addresses from it.
 
-## How it Works
+## How to run it
+```
+git clone https://github.com/OstlerDev/oip-hdmw-pubkeys.git
+cd oip-hdmw-pubkeys
+npm install
+npm start
+```
 
 ## Design Decisions
 
