@@ -14,7 +14,7 @@ npm start
 ### What level should the xPub be grabbed from?
 In order to decide what level the xPub should be grabbed from, you should consider the following use cases to understand the pro's and con's of each. You should then choose the one that is closest in aproximation.
 
-In almost all cases, I suggest that you share the xPub for the external chain of the `account` you want to generate new public keys for (`m/44'/coin_type'/account_number'/0`)
+In almost all cases, I suggest that you share the xPub for the `account` you want to generate new public keys for (`m/44'/coin_type'/account_number'/*`)
 
 #### Types of xPubs
 1. `master` xPub (`m/44'/coin_type'/*`) https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki#audits-nm
