@@ -1,0 +1,23 @@
+{
+  "name": "oip-hdmw-pubkeys",
+  "version": "1.0.0",
+  "description": "Demo code to take a Mnemonic, derive an xPub, reload the xPub into a fresh `oip-hdmw` and generate new public addresses from it.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OstlerDev/oip-hdmw-pubkeys.git"
+  },
+  "author": "Sky Young <sky@oip.dev>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OstlerDev/oip-hdmw-pubkeys/issues"
+  },
+  "homepage": "https://github.com/OstlerDev/oip-hdmw-pubkeys#readme",
+  "dependencies": {
+    "bip32": "^2.0.5",
+    "oip-hdmw": "^1.3.27"
+  }
+}
